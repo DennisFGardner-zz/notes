@@ -12,3 +12,4 @@ This list contains the extension I use.
 - `davidanson.vscode-markdownlint`
 - `bierner.markdown-checkbox`
 - `streetsidesoftware.code-spell-checker`
+- `mechatroner.rainbow-csv`
