@@ -24,3 +24,15 @@ Where you can enter the settings below:
 [difftool "vscode"]
     cmd = code --wait --diff $LOCAL $REMOTE
 ```
+
+## A Prettier Log
+
+I like the pretty git log alias from [Coderwall](https://coderwall.com/p/euwpig/a-better-git-log)
+
+`git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+
+## Other Aliases
+
+`git config --global alias.stat "status -s"`
+
+`git config --global alias.co "checkout"`
