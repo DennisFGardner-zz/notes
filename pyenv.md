@@ -10,15 +10,17 @@ The versions of python are built from source. To build python, the following dep
 
 `sudo apt update`
 
-`sudo apt install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev`
+`sudo apt-get install make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev`
 
-To install pyenv, I use [pyenv-installer](https://github.com/pyenv/pyenv-installer). The following dependencies are needed to install pyenv, there is a lot, with almost total overlap with the python build dependencies:
+To install pyenv, I use [pyenv-installer](https://github.com/pyenv/pyenv-installer). The following dependency are needed to install pyenv:
 
-`sudo apt install -y build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl git`
+`sudo apt install libedit-dev`
 
 After dependency installation, install pyenv with:
 
 `curl https://pyenv.run | bash`
+
+**Maybe outdated below**, I did not do this (below), I restarted the computer and everyting worked
 
 After installation, the following needs to be added to `~/.bashrc`:
 
