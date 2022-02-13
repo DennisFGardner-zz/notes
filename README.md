@@ -1,6 +1,6 @@
 # notes
 
-A reference on tools and code snippets.
+A reference on software tools and code snippets.
 
 [Add SSH key to git server](./adding_ssh_key_to_git_server.md)
 

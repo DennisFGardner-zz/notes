@@ -1,10 +1,10 @@
 # Visual Studio Code
 
-This is the open-source editor. Not the Visual Studio IDE.
+I use free open-source editor [Visual Studio Code](https://code.visualstudio.com/). This editor is not the Visual Studio IDE.
 
 ## Extensions
 
-This list contains the extension I use.
+These are the extensions I use.
 
 - `ms-python.python`
 - `ms-toolsai.jupyter`
@@ -13,3 +13,9 @@ This list contains the extension I use.
 - `bierner.markdown-checkbox`
 - `streetsidesoftware.code-spell-checker`
 - `mechatroner.rainbow-csv`
+
+## Shortcuts
+
+### Multi-cursor Editing
+
+- **Box Selection** select several lines with the mouse while holding 'Shift+Alt'
